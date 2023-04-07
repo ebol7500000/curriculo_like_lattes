@@ -1,0 +1,464 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Inconsolata', monospace; 
+	box-sizing:border-box; 
+}
+
+html, body{
+	height:100%;
+}
+
+header{
+position: relative;
+top: 0%;
+left: 0%;  
+width: 100vw;
+height: 22vh ;
+background-image:url('../cv-home/Untitled-1.png');
+background-size:50%; 
+background-repeat:no-repeat; 
+background-color: #0033ff;
+} /* citado no home.html*/
+
+.clear{
+clear:both ;
+
+} 
+
+.setevw{
+    position: relative; 
+	top: 50%;
+	margin-top:5px; 
+	left: 0%;  
+	width: 100vw;
+	height: 22vh ;
+	background-color: #0033ff;
+	background-size: 50%; 
+	background-repeat:no-repeat;   
+	float:left; 
+}
+.card1{
+	position: relative;
+	top: 0%;
+	left: 0%;  
+	width: 13.8vw;
+	height: 11vh ;
+	background-image:url('../cv-home/Untitled-2.png');
+	background-size:100%; 
+	float:left; 
+	background-color:#0033ff; 
+
+	
+}
+.card2{
+	position: relative;
+ 
+	width: 13.8vw;
+	height: 11vh ;
+	background-image:url('../cv-home/Untitled-3.png');
+	background-size:100%; 
+	float:left; 
+	background-color:#0033ff; 
+
+	
+}
+.card3{
+	position: relative;
+	float:left; 
+	width: 13.8vw;
+	height: 11vh ;
+	background-image:url('../cv-home/Untitled-4.png');
+	background-size:100%; 
+	
+	background-color:#0033ff; 
+
+	
+}
+
+.card4{
+	position: relative;
+	float:left; 
+	width: 13.8vw;
+	height: 11vh ;
+	background-image:url('../cv-home/Untitled-5.png');
+	background-size:100%; 
+	
+	background-color:#0033ff; 
+
+	
+}
+.card5{
+	position: relative;
+	float:left; 
+	width: 13.8vw;
+	height: 11vh ;
+	background-image:url('../cv-home/Untitled-6.png');
+	background-size:100%; 
+	
+	background-color:#0033ff; 
+
+	
+}
+.card6{
+	position: relative;
+	float:left; 
+	width: 13.8vw;
+	height: 11vh ;
+	background-image:url('../cv-home/Untitled-7.png');
+	background-size:100%; 
+	
+	background-color:#0033ff; 
+
+	
+}
+.card7{
+	position: relative;
+	float:left; 
+	width: 13.8vw;
+	height: 11vh ;
+	background-image:url('../cv-home/Untitled-8.png');
+	background-size:100%; 
+	
+	background-color:#0033ff; 
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card8{
+	position: relative;
+	top: 0%;
+	left: 0%;  
+	width: 13.8vw;
+	height: 11vh ;
+	background-image:url('../cv-home/Untitled-9.png');
+	background-size:100%; 
+	float:left; 
+	background-color:#0033ff; 
+
+	
+}
+.card9{
+	position: relative;
+ 
+	width: 13.8vw;
+	height: 11vh ;
+	background-image:url('../cv-home/Untitled-10.png');
+	background-size:100%; 
+	float:left; 
+	background-color:#0033ff; 
+
+	
+}
+.card10{
+	position: relative;
+	float:left; 
+	width: 13.8vw;
+	height: 11vh ;
+	background-image:url('../cv-home/Untitled-11.png');
+	background-size:100%; 
+	
+	background-color:#0033ff; 
+
+	
+}
+
+.card11{
+	position: relative;
+	float:left; 
+	width: 13.8vw;
+	height: 11vh ;
+	background-image:url('../cv-home/Untitled-12.png');
+	background-size:100%; 
+	
+	background-color:#0033ff; 
+
+	
+}
+.card12{
+	position: relative;
+	float:left; 
+	width: 13.8vw;
+	height: 11vh ;
+	background-image:url('../cv-home/Untitled-13.png');
+	background-size:100%; 
+	
+	background-color:#0033ff; 
+
+	
+}
+.card13{
+	position: relative;
+	float:left; 
+	width: 13.8vw;
+	height: 11vh ;
+	background-image:url('../cv-home/Untitled-14.png');
+	background-size:100%; 
+	
+	background-color:#0033ff; 
+
+	
+}
+.card14{
+	position: relative;
+	float:left; 
+	width: 100vw;
+	height: 60vh ;
+	background-image:url('../cv-home/Untitled-15.png');
+	background-size:100%; 
+	 
+	background-color:#0033ff; 
+
+	
+}
+
+@media screen and (max-width: 720px ){
+	header{
+		background-size: 100%;   
+	}
+	.setevw{
+		height:309.5vw;
+	}
+	.card1{
+		position: relative;
+		top: 0%;
+		left: 0%;  
+		width: 100vw;
+		height: 23vh ;
+		background-image:url('../cv-home/Untitled-2.png');
+		background-size:100%; 
+		float:left; 
+		background-color:#0033ff; 
+		background-repeat: no-repeat; 
+		
+	}
+	.card2{
+		position: relative;
+	 
+		width: 100vw;
+		height: 23vh ;
+		background-image:url('../cv-home/Untitled-3.png');
+		background-size:100%; 
+		float:left; 
+		background-color:#0033ff; 
+		background-repeat: no-repeat; 
+		
+	}
+	.card3{
+		position: relative;
+		float:left; 
+		width: 100vw;
+		height: 23vh ;
+		background-image:url('../cv-home/Untitled-4.png');
+		background-size:100%; 
+		background-repeat: no-repeat; 
+		background-color:#0033ff; 
+	
+		
+	}
+	
+	.card4{
+		position: relative;
+		float:left; 
+		width: 100vw;
+		height: 23vh ;
+		background-image:url('../cv-home/Untitled-5.png');
+		background-size:100%; 
+		background-repeat: no-repeat; 
+		background-color:#0033ff; 
+	
+		
+	}
+	.card5{
+		position: relative;
+		float:left; 
+		width: 100vw;
+		height: 23vh ;
+		background-image:url('../cv-home/Untitled-6.png');
+		background-size:100%; 
+		background-repeat: no-repeat; 
+		background-color:#0033ff; 
+	
+		
+	}
+	.card6{
+		position: relative;
+		float:left; 
+		width: 100vw;
+		height: 23vh ;
+		background-image:url('../cv-home/Untitled-7.png');
+		background-size:100%; 
+		background-repeat: no-repeat; 
+		background-color:#0033ff; 
+	
+		
+	}
+	.card7{
+		position: relative;
+		float:left; 
+		width: 100vw;
+		height: 23vh ;
+		background-image:url('../cv-home/Untitled-8.png');
+		background-size:100%; 
+		background-repeat: no-repeat; 
+		background-color:#0033ff; 
+	
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.card8{
+		position: relative;
+		top: 0%;
+		left: 0%;  
+		width: 100vw;
+		height: 23vh ;
+		background-image:url('../cv-home/Untitled-9.png');
+		background-size:100%; 
+		float:left; 
+		background-color:#0033ff; 
+		background-repeat: no-repeat; 
+		
+	}
+	.card9{
+		position: relative;
+	 
+		width: 100vw;
+		height: 23vh ;
+		background-image:url('../cv-home/Untitled-10.png');
+		background-size:100%; 
+		float:left; 
+		background-color:#0033ff; 
+		background-repeat: no-repeat; 
+		
+	}
+	.card10{
+		position: relative;
+		float:left; 
+		width: 100vw;
+		height: 23vh ;
+		background-image:url('../cv-home/Untitled-11.png');
+		background-size:100%; 
+		background-repeat: no-repeat; 
+		background-color:#0033ff; 
+	
+		
+	}
+	
+	.card11{
+		position: relative;
+		float:left; 
+		width: 100vw;
+		height: 23vh ;
+		background-image:url('../cv-home/Untitled-12.png');
+		background-size:100%; 
+		background-repeat: no-repeat; 
+		background-color:#0033ff; 
+	
+		
+	}
+	.card12{
+		position: relative;
+		float:left; 
+		width: 100vw;
+		height: 23vh ;
+		background-image:url('../cv-home/Untitled-13.png');
+		background-size:100%; 
+		background-repeat: no-repeat; 
+		background-color:#0033ff; 
+	
+		
+	}
+	.card13{
+		position: relative;
+		float:left; 
+		width: 100vw;
+		height: 23vh ;
+		background-image:url('../cv-home/Untitled-14.png');
+		background-size:100%; 
+		background-repeat: no-repeat; 
+		background-color:#0033ff; 
+	
+		
+	}
+	.card14{
+		position:relative;
+
+		float:left; 
+		width: 100vw;
+		height: 300vh ;
+		background-image:url('../cv-home/Untitled-16.png');
+		background-size:100%; 
+		background-repeat: no-repeat;       
+		background-color:#0033ff; 
+	
+		
+	}
+}  

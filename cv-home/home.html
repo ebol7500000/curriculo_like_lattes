@@ -1,0 +1,137 @@
+
+
+<!DOCTYPE html><!-- defini html o documento , mas como é em php não
+faz muito sentido. Se quiser retirar -->
+<!--Este é o formato de escrita de comentário de html. coloca se um menor 
+que , depois um interjeição e exatamente dois traços após  . No final também
+é dois traços e um maior que.-->
+<!-- lembrando sempre que é necessário salvar em html para renderizar tudo
+direitinho--> 
+<html><!-- tag html é como um pequeno comando entre maior e menor que.
+Essa renderiza o html lido -->
+<!-- no notepad do windows: você coloca como todos os arquivos e adiciona 
+a extensão (.html)no nome do arquivo.-->
+     <head><!--essa é o cabeçalho chamado por vezes muitas de header, 
+que dá no mesmo. Mas usar header como tag é outro comando. Só ilustrei
+a fins didáticos.-->
+
+<title>cv lattes</title><!-- aqui é o topo da pagina. O que title faz 
+é armazenar as palavras do topo da aba. Cuidado de testar sempre,
+pois há variações no tamanho de aba , de browser para browser(de 
+navegador de internet para navegador de internet-->
+
+<link rel=stylesheet href="./style.css"/><!-- essa tag é para importar 
+textos em css que eu uso. Em especifico a mim. Tem gente que implementa 
+o css no próprio código do html.-->
+<!-- a tag link  tem alguns campos. Dois em específico. rel e href. No
+rel você expressa o tipo de arquivo importado. No caso folha de estilo. 
+E href é o mesmo lá da tag a , de link. Mais pra frente vão entender.-->
+<!--no final sempre coloque o barra invertida na frente da tag: para 
+indicar o fim do código da tag no espaço que você colocou-->
+</head><!-- aqui é um exemplo do ultimo comentário que eu falei. Nesta 
+tag em especifica foi colocada o barra invertido e a tag head(de cabeçalho).
+-->
+
+<body style="background-color:#ccc; " ><!-- Aqui começa o 'corpo' do nosso 
+código --><!--apartir daqui tudo é renderizado. Exceto outros códigos como
+javascript por exemplo.--><!--se vocês abrirem o arquivo vão ver que o texto
+em comentário não é renderizado.-->
+<div class="container"> <!-- essa tag div é utilizada mas para organização
+class: classe é um conceito muito avançado para entender agora. No caso aí é
+para expressar uma cópia de um modelo css. Dá para fazer a mesma coisa com
+o atributo id. Porém, id é para coisas em específico.
+"container": é uma string , uma palavra em que se coloca aspas para identificar
+como um container de html. 
+--> 
+<header>
+<!--aqui como pode notar e testar de novo após ler aqui, apagando a header. Só
+não esqueça de colocar a tag header de volta. Header é a tag de cabeçalho do body.
+Assim como o header do body é a head para o a parte não visual.--><!--A tag header 
+é como um tipo de parte de cima como se fosse um standart.--><!--Não esqueça de não 
+apagar. Tem umas regras de css associada a esta header em específico.-->      
+</header>
+
+    <div class="clear">  </div><!--div limpadora de formatação-->   
+    <div class="setevw" ><!--essa div da classe setevw é a div que referencia a classe
+    setevw, que está no arquivo style.css. Ela separa um espaço para os botões do 
+    cv-lattes-like.mais informações sobre como fiz isso em css procure no style.css 
+    desta pasta.-->
+    <div class="clear">  </div><!--div limpadora de formatação-->
+	<a href='.././cv-home/index.php'><!-- a tag a . Uma das principais se não a mais 
+     usada para linkar ou conectar uma pagina a outra. porém só tem uma direção assim 
+     como o header do php. Mas isso é mais pra frente.--><!--href vimos lá em cima. ele 
+     referencia um caminho a ir na tag a.-->     
+        <div class= "card1"><!--essa div pe da classe card1. Um dos conceitos trazido 
+        pelo Bootstrap é este. o card. Aqui é um card mais customizado.--><!-- mais 
+        informações no css citado anteriormente--><!-- a div há diversas aplicações
+        e uma variedades de aplicação mas olhe o site w3cschool para mais informações
+        -->  
+             <img  width="100%" height="100%"/><!--aqui é um pouco mais complexo. Tem 
+             o width(largura) e height(altura) escritos em strings de 100%. Que quer 
+             dizer 100% da altura e da largura dito nas regras do style.css .-->  
+
+        </div><!--fechamento da tag div. Sempre confira a indentação para ficar um código 
+        mais limpo. Digo olhe os niveis de espaçamento desde a bora até o código.-->  
+     </a><!--fechamento da tag a. Ressalto a importancia de fechar a tag. Pode haver um erro 
+          a não fechar essa tag de tudo ficar em um link só.-->
+	<a href='.././cv-formacao/index.php'>
+        <div class= "card2">
+             <img  width="100%" height="100%"/>
+        </div>
+     </a>
+     <a href='.././cv-action/index.php'>
+        <div class= "card3">
+             <img  width="100%" height="100%"/>
+        </div>
+     </a>
+        <div class= "card4">
+             <img  width="100%" height="100%"/>
+        </div>
+        <div class= "card5">
+             <img  width="100%" height="100%"/>
+        </div>
+        <div class= "card6">
+             <img  width="100%" height="100%"/>
+        </div>
+        <div class= "card7">
+             <img  width="100%" height="100%"/>
+        </div>
+      
+
+
+        <div class= "card8">
+             <img  width="100%" height="100%"/>
+        </div>
+        <div class= "card9">
+             <img  width="100%" height="100%"/>
+        </div>
+        <div class= "card10">
+             <img  width="100%" height="100%"/>
+        </div>
+        <div class= "card11">
+             <img  width="100%" height="100%"/>
+        </div>
+        <div class= "card12">
+             <img  width="100%" height="100%"/>
+        </div>
+        <div class= "card13">
+             <img  width="100%" height="100%"/>
+        </div>
+       
+        <div class= "card14">
+             <img  width="100%" height="100%"/>
+        </div>
+
+
+
+    </div>
+
+    
+
+
+</div>
+	</body>
+
+
+
+</html>
